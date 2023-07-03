@@ -1,0 +1,8 @@
+<!ELEMENT timetable (course+)>
+<!ELEMENT course (name, teacher, date_begin, date_ending, start_of_classes, end_of_classes)> 
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT teacher (#PCDATA)> 
+<!ELEMENT date_begin (#PCDATA)> 
+<!ELEMENT date_ending (#PCDATA)> 
+<!ELEMENT start_of_classes (#PCDATA)>
+<!ELEMENT end_of_classes_of_classes (#PCDATA)>

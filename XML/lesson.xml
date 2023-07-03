@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<!DOCTYPE TimeTable SYSTEM "lessons_DTD.dtd">
+<myns:timetable xmlns:myns = "http://www.itmo.ru/xml/lessons">
+   <myns:course>
+		<myns:name>"Основы технологий разметки(HTML,XML)"</myns:name>
+		<myns:teacher>Кузьмин Константин Михайлович</myns:teacher>
+		<myns:date_begin>26.06.2023</myns:date_begin>
+		<myns:date_ending>03.07.2023</myns:date_ending>
+		<myns:start_of_classes>6:30 PM</myns:start_of_classes>
+		<myns:end_of_classes>10:00 PM</myns:end_of_classes>
+   </myns:course>
+</myns:timetable>
