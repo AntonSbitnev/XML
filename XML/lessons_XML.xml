@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:myns="http://www.itmo.ru/xml/lessons" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.itmo.ru/xml/lessons" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="timetable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="course">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="teacher" type="xs:string" />
+              <xs:element name="date_begin" type="xs:string" />
+              <xs:element name="date_ending" type="xs:string" />
+              <xs:element name="start_of_classes" type="xs:string" />
+              <xs:element name="end_of_classes" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
